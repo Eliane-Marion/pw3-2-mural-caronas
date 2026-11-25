@@ -1,4 +1,4 @@
-package Entity;
+package br.com.etec.IsaacNatanael.Caronas.Entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -12,8 +12,8 @@ import lombok.Value;
 public class Carona {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID_Carona")
-    private int Id;
+    @Column(name = "Id")
+    private int IdCarona;
     @Column(name = "TX_NomeMotorista")
     private String NomeMotorista;
     @Column(name = "TX_BairroOrigem")
